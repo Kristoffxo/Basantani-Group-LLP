@@ -1,0 +1,5 @@
+Journal / blog images. Landscape 16:10.
+
+  journal-hero.jpg
+  post-featured.jpg
+  post-01.jpg ... post-06.jpg

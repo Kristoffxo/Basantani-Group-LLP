@@ -1,0 +1,12 @@
+Big banner and section images. Wide + high resolution (2400x1400 or larger).
+
+  hero-main.jpg          <- the home page hero. Use your best photo.
+  about-hero.jpg
+  about-intro.jpg
+  about-story.jpg
+  why-us.jpg
+  services-hero.jpg
+  services-feature.jpg
+  team-hero.jpg
+  contact-hero.jpg
+  gallery-01.jpg ... gallery-07.jpg

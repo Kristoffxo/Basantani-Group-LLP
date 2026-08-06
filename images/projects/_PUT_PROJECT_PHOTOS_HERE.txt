@@ -1,0 +1,4 @@
+Project photos. Landscape (4:3 or 16:9), ~1600px wide.
+
+  projects-hero.jpg
+  project-01.jpg ... project-09.jpg

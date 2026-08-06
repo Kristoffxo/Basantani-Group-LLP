@@ -1,0 +1,13 @@
+Family photos go in this folder. Use SQUARE (1:1) images, ~800x800px.
+
+Required filenames:
+  madan-basantani.jpg     Madan Basantani (grandfather)
+  asha-basantani.jpg      Asha Basantani (grandmother)
+  manoj-basantani.jpg     Manoj Basantani (founder)
+  richa-basantani.jpg     Richa Basantani
+  aryan-basantani.jpg     Aryan Basantani (co-founder)
+  iswiti-basantani.jpg    Iswiti Basantani
+
+  family-hero.jpg         Wide banner at top of Family page (2400x1400+)
+  family-portrait.jpg     Portrait in "Passing It On" section
+  album-01.jpg ... album-08.jpg   Family gallery grid
