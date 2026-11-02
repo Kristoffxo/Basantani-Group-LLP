@@ -439,9 +439,32 @@
         elFacts.appendChild(d);
       });
 
+      // Optional full-profile link (data-profile="page.html" on the node)
+      const oldLink = $('#bio-profile-link', panel);
+      if (oldLink) oldLink.remove();
+      if (node.dataset.profile) {
+        const a = document.createElement('a');
+        a.id = 'bio-profile-link';
+        a.href = node.dataset.profile;
+        a.className = 'btn btn-primary';
+        a.style.marginTop = '1.6rem';
+        a.textContent = 'View full profile';
+        panel.appendChild(a);
+      }
+
       panel.classList.add('open');
       if (backdrop) backdrop.classList.add('open');
     }
+
+    // Permanent deep links: family.html#aryan opens that person's panel
+    function openFromHash() {
+      const id = (location.hash || '').replace('#', '');
+      if (!id) return;
+      const node = $('#n-' + id, tree);
+      if (node) { node.scrollIntoView({ block: 'center' }); setTimeout(() => openBio(node), 400); }
+    }
+    window.addEventListener('load', openFromHash);
+    on(window, 'hashchange', openFromHash);
 
     function closeBio() {
       panel.classList.remove('open');
